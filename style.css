@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(241, 248, 252);
+}
+
+#header{
+    text-align: center;
+    color: rgb(0, 17, 255);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.meme-generator-class{
+    text-align: center;
+    display:flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.meme-title{
+    font-weight: bold;
+    
+}
+
+.meme-author{
+   font-weight: bold; 
+}
+
+.generate-meme-btn button{
+    background-color: rgb(128, 208, 211);
+    padding: 5px;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    border-style: none;
+}
+
+.meme-image img{
+    width: 300px;
+    height: 300px;
+}
